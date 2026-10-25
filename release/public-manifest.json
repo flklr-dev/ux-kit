@@ -1,6 +1,6 @@
 {
   "files": [
-    "README.md", "LICENSE", "CHANGELOG.md", "CONTRIBUTING.md", ".gitignore",
+    "README.md", "LICENSE", "CHANGELOG.md", "CONTRIBUTING.md", ".gitignore", ".gitattributes",
     "requirements-dev.txt", ".github/workflows/public-validate.yml",
     "scripts/__init__.py", "scripts/principles_schema.py",
     "scripts/validate_repository.py", "scripts/release_package.py",
