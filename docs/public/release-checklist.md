@@ -3,9 +3,9 @@
 ## Experimental source preview
 
 - [x] Public destination created under flklr-dev/ux-kit.
-- [ ] Curated public snapshot reviewed and pushed; exact commit recorded.
-- [ ] Fresh remote project-copy installation/listing and byte identity recorded.
-- [ ] Public Windows/Linux CI actually completes successfully.
+- [x] Curated public snapshot reviewed and pushed; initial source a53db64, portable checkout 931a694.
+- [x] Fresh Windows remote project-copy add/list for Codex and Claude Code;176/176 files match public source 931a694.
+- [x] Public Windows/Ubuntu source CI completed successfully for 931a694.
 - [x] MIT license included in repository and skill payload.
 - [x] README, installation, compatibility, coverage and limitations prepared.
 - [x] Public export excludes local notes/raw traces/private product context.

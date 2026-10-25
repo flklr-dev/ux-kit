@@ -13,7 +13,7 @@ npx skills@1.7.4 list -a codex
 
 For a Claude Code project, replace `-a codex` with `-a claude-code`. This changes the installation target; see the runtime limitations below. Check the installer destination and confirm before replacing an existing copy. A copy is a snapshot and does not automatically follow future upstream edits.
 
-The public repository is [flklr-dev/ux-kit](https://github.com/flklr-dev/ux-kit). The current verification record is in [evidence](evidence.md); remote-install status is recorded after the actual public-source check.
+The public repository is [flklr-dev/ux-kit](https://github.com/flklr-dev/ux-kit). This remote command was verified in new Windows projects for Codex and Claude Code: add/list succeeded and all 176 skill files matched public source commit 931a694. [Exact verification and limits](evidence.md)
 
 ## Manual copy
 

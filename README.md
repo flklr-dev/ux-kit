@@ -26,7 +26,7 @@ problems supported by the evidence, preserve what works, and give concrete
 recommendations and checks. Do not edit files.
 ```
 
-For a Claude Code project, use `-a claude-code`. Project copy/listing has been checked locally; Claude's native task execution remains unverified. Codex explicit loading has prior local evidence. [Installation, manual copy and compatibility](docs/public/installation.md)
+For a Claude Code project, use `-a claude-code`. Installation from GitHub was verified in new Windows projects for both agents, with all 176 skill files matching the public source. Claude's native task execution remains unverified. Codex explicit loading has prior local evidence. [Installation, manual copy and compatibility](docs/public/installation.md)
 
 Ordinary use needs no UX Kit runtime, API key, account or server. An agent can still need its own tools or network access to inspect your app or verify a changing source.
 
