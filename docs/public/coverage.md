@@ -19,13 +19,13 @@ The installed library has **137 canonical entries, 15 topic guides, 12 feature g
 | AI review and bulk actions | Review/Apply, source facts, agency and partial outcomes |
 | Settings | Privacy, preferences and automation scope |
 
-The15topic guides connect cognition/choice, perception/grouping, targeting/interaction, learning/memory, motivation/complexity, usability/control, information architecture, forms/accounts, commerce/trust, data tools, content/localization, accessibility/inclusion, native/resilience, human–AI agency and research/evaluation.
+The 15 topic guides connect cognition/choice, perception/grouping, targeting/interaction, learning/memory, motivation/complexity, usability/control, information architecture, forms/accounts, commerce/trust, data tools, content/localization, accessibility/inclusion, native/resilience, human–AI agency and research/evaluation.
 
 ## Principles with conditions
 
 Fitts's law helps inspect effective targets and acquisition distance. Hick–Hyman helps investigate choice time under fitting conditions. Gestalt principles help inspect relationships and grouping. Recognition, feedback and error recovery help reduce unnecessary recall and correction effort. Accessibility and platform entries identify the scope of actual requirements.
 
-Each entry includes application signals, interventions, limitations, a counterexample/conflict and checks. All 30mapped Laws of UX concepts are addressed through entries, qualifications or merged aliases. Coverage does not mean every popular claim is accepted as a universal rule. For example, five navigation destinations is not a universal psychological maximum.
+Each entry includes application signals, interventions, limitations, a counterexample/conflict and checks. All 30 mapped Laws of UX concepts are addressed through entries, qualifications or merged aliases. Coverage does not mean every popular claim is accepted as a universal rule. For example, five navigation destinations is not a universal psychological maximum.
 
 ## Choose a workflow
 

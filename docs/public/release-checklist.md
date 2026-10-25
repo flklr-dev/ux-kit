@@ -1,23 +1,13 @@
-# Release preparation
+# Validate a UX Kit recommendation
 
-## Experimental source preview
+Use these checks when turning an audit or design proposal into a product change:
 
-- [x] Public destination created under flklr-dev/ux-kit.
-- [x] Curated public snapshot reviewed and pushed; initial source a53db64, portable checkout 931a694.
-- [x] Fresh Windows remote project-copy add/list for Codex and Claude Code;176/176 files match public source 931a694.
-- [x] Public Windows/Ubuntu source CI completed successfully for 931a694.
-- [x] MIT license included in repository and skill payload.
-- [x] README, installation, compatibility, coverage and limitations prepared.
-- [x] Public export excludes local notes/raw traces/private product context.
+1. **Confirm the task.** Name the person, their goal, the affected screen/flow and the available evidence.
+2. **Separate facts from assumptions.** Source inspection, reported behavior and runtime observations are different evidence.
+3. **Keep what works.** Identify the existing fields, routes, product facts, useful imagery and behavior the change must preserve.
+4. **Match the action to its outcome.** Resolve actual save, send, review, payment or permission behavior before choosing a label.
+5. **Exercise correction and recovery.** Check invalid input, pending work, repeated activation, failure/retry and uncertain completion where relevant.
+6. **Check fit and access.** Use the target viewport, larger text, keyboard and assistive/native checks appropriate to the product.
+7. **Verify the original difficulty improved.** Record observable results and any new tradeoff. A visually quieter screen alone is insufficient evidence.
 
-This checklist distinguishes preparation from execution. Check a box only after observing its result.
-
-## Promotion to beta/stable
-
-The development release standard remains unmet. Preparation does not lower those gates: repeated behavioral/trigger checks on advertised agents, complete isolated installation lifecycle evidence, Windows and Unix-like installation, native/assistive checks where claimed, independent human/external pilot review, and an immutable candidate tied to reproducible evidence remain open. Known consequential failures must be resolved or excluded from a narrowly defined supported scope.
-
-Publishing source under an experimental label is not beta/stable approval. There is no stable tag, certification, quantified improvement or universal compatibility promise.
-
-## Website — deliberately deferred
-
-Owner asks to do the repository first. GitHub Pages is suitable for a future static project site, normally `https://flklr-dev.github.io/ux-kit/`. No website files, Pages deployment workflow, domain setup or website publication belongs to this repository-preparation step. The URL is a future location, not a live-site claim.
+For retained tasks, use **Start → action → expected result** so the preservation check can actually be performed. [Coverage](coverage.md) · [Verification scope](evidence.md)

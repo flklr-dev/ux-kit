@@ -1,51 +1,87 @@
 # Install UX Kit
 
-UX Kit is a portable folder of Markdown guidance and reference metadata. Ordinary use requires no UX Kit runtime, API key, paid service or server. Your coding agent supplies any tools used to inspect or change your product.
+Use a Codex or Claude Code version that supports local Agent Skills. The Node.js/npm route below uses Skills CLI 1.7.4. UX Kit itself is a folder of guidance and references; it has no executable runtime or API key requirement.
 
-## Recommended: project copy
+## Codex — project installation
 
-Run inside the project where you want UX Kit available. The pinned installer route uses Node.js/npm and Skills CLI 1.7.4:
+From your project directory:
 
 ```sh
 npx skills@1.7.4 add flklr-dev/ux-kit --skill ux-kit -a codex --copy
 npx skills@1.7.4 list -a codex
 ```
 
-For a Claude Code project, replace `-a codex` with `-a claude-code`. This changes the installation target; see the runtime limitations below. Check the installer destination and confirm before replacing an existing copy. A copy is a snapshot and does not automatically follow future upstream edits.
+The verified project destination is `.agents/skills/ux-kit/`. In Codex CLI/IDE, type `$` to select the skill or use `/skills`. You can invoke it directly:
 
-The public repository is [flklr-dev/ux-kit](https://github.com/flklr-dev/ux-kit). This remote command was verified in new Windows projects for Codex and Claude Code: add/list succeeded and all 176 skill files matched public source commit 931a694. [Exact verification and limits](evidence.md)
+```text
+$ux-kit Audit this checkout. Prioritize evidenced problems, preserve working behavior, and give checks. Do not edit files.
+```
 
-## Manual copy
+In a graphical client, use its skill picker or explicitly ask it to use UX Kit. If discovery does not refresh, start a new session.
 
-Download the repository from GitHub's **Code → Download ZIP**, extract it, and copy the entire `skills/ux-kit` folder into your agent's supported project skill directory. Keep `LICENSE.txt`, `agents/`, all references and metadata together. Copying only `SKILL.md` breaks the detailed workflows.
+## Claude Code — project installation
 
-Verified project-copy destinations on Windows were:
+From your project directory:
 
-| Agent | Returned installer path | Native behavior evidence |
+```sh
+npx skills@1.7.4 add flklr-dev/ux-kit --skill ux-kit -a claude-code --copy
+npx skills@1.7.4 list -a claude-code
+```
+
+The verified project destination is `.claude/skills/ux-kit/`. Invoke the skill in Claude Code:
+
+```text
+/ux-kit Audit this checkout. Prioritize evidenced problems, preserve working behavior, and give checks. Do not edit files.
+```
+
+You can also ask Claude to use UX Kit by name. Open a new session if the command is missing, and check that you launched Claude Code in the project containing the installation.
+
+## Make it available across projects
+
+For a manual user-level installation, copy the **complete** `skills/ux-kit/` folder from this repository into the directory for your agent:
+
+| Agent | User-level destination | Windows default |
 |---|---|---|
-| Codex | `.agents/skills/ux-kit` | Explicit loading/discovery observed in prior local CLI tasks; broad automatic triggering remains unverified |
-| Claude Code | `.claude/skills/ux-kit` | Copy/listing verified; task execution stopped at authentication, so native behavior is unverified |
+| Codex | `~/.agents/skills/ux-kit/` | `%USERPROFILE%\.agents\skills\ux-kit\` |
+| Claude Code | `~/.claude/skills/ux-kit/` | `%USERPROFILE%\.claude\skills\ux-kit\` |
 
-Paths returned by your installer are authoritative. No claim is made that every agent/version uses the same path. Compatibility with other agents is not yet verified.
+The `~` in these paths means your user home folder. Keep `SKILL.md`, `LICENSE.txt`, `agents/` and every reference/metadata file together. Check for an existing customized copy before writing there. A personal copy can affect which same-named skill your agent loads, so keep one intended version and check its location.
 
-## First use
+Codex also provides the built-in skill installer. Ask it:
 
-Refresh/restart the agent if its skill discovery requires it. Ask it to find UX Kit and run a small read-only task:
+```text
+Use skill-installer to install UX Kit from flklr-dev/ux-kit, path skills/ux-kit, for my user account. Preserve any existing customized copy.
+```
 
-> Use UX Kit to audit this form. Identify the most important evidenced problems, preserve what works, and give concrete recommendations and checks. Do not edit files.
+The installer reports its actual destination; it may use the Codex-specific skill directory configured for that installation. Do not assume a particular directory solely from an example.
 
-In Codex you can explicitly name `$ux-kit`. Confirm the entrypoint and fitting reference were read when traces are available. Listing an installed folder proves the installer result; it does not prove the agent used the guidance correctly.
+## Manual project installation
 
-## Update and removal
+Download the repository with **Code → Download ZIP**, extract it, and copy the entire `skills/ux-kit/` folder to the project directory shown above for your agent. Copying only `SKILL.md` leaves its references unavailable.
 
-Record which upstream commit your copy came from. Review changes and back up any local modifications before replacing it. Global installation, updating and removal have not completed UX Kit's lifecycle validation, so this release provides no tested automatic update/uninstall command. Follow your agent/installer's current documentation and your project's approval rules. Do not overwrite shared or customized skills silently.
+## Choose the right task
+
+- **Audit:** diagnose an existing feature without editing it.
+- **Design:** propose a journey and its states before implementation.
+- **Implement:** make the specifically authorized change using existing components.
+- **Validate:** compare a proposed fix with its acceptance checks.
+
+Include the screen, repository files or task context you want reviewed. State any areas that must remain unchanged.
+
+## Updating
+
+A copied skill is a snapshot. Review upstream changes and back up local modifications before replacing your copy. Record the installed commit when you need reproducible results. Follow your agent's current instructions for removal; avoid deleting a shared/customized copy inadvertently.
 
 ## Troubleshooting
 
-- **Skill not found:** check the returned installation path and listing, refresh discovery, and explicitly request UX Kit. A project-scoped install belongs to that project.
-- **Missing references:** copy the complete skill folder rather than individual files.
-- **Installer cannot download:** check access to GitHub/npm, or use the manual-copy route. Installing requires network access; the installed guidance itself does not.
-- **Agent edits during an audit:** stop/review the diff. Audit is advice only; report the request, agent version and loaded skill files in an issue without private source or credentials.
-- **Native compatibility:** a successful browser preview does not verify native focus, keyboard, sheets, text scaling or lifecycle behavior. Validate on the target platform.
+| Problem | Check |
+|---|---|
+| Skill not found | Confirm the installed path and installer listing, refresh the session, then invoke it explicitly. |
+| Missing reference | Re-copy the entire folder. |
+| Wrong version is used | Look for both project and personal copies with the same name. |
+| Download fails | Check access to GitHub/npm or use manual installation. |
+| Claude slash command is absent | Use a version with local skills support and launch from the correct project. |
 
-UX Kit is currently experimental. Installation success does not establish beta/stable quality or full accessibility conformance.
+Project installation/listing and payload integrity have been checked for both agents on Windows. Codex has prior explicit-loading evidence; Claude task behavior was not exercised because its local authentication was unavailable. [Verification details](evidence.md)
+
+Directory and invocation guidance follows [OpenAI's skill documentation](https://learn.chatgpt.com/docs/build-skills) and [Claude Code's skills documentation](https://code.claude.com/docs/en/skills). Their client-specific discovery and cloud behavior can differ.
