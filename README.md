@@ -1,10 +1,12 @@
 <p align="center"><img src="assets/readme-banner.svg" alt="UX Kit. Better decisions. Better interfaces. Task, evidence, change, check." width="100%"></p>
 
-<p align="center"><strong>Practical UX judgment for AI coding agents.</strong><br>Open source · MIT · Codex & Claude Code</p>
+<p align="center"><strong>A UX-focused skill for AI coding agents.</strong><br>Open source · MIT · Codex & Claude Code</p>
 
 <p align="center"><a href="#install">Install</a> · <a href="#see-the-difference">See an example</a> · <a href="#built-on-ux-research-and-practice">Research & principles</a> · <a href="docs/public/coverage.md">Coverage</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
 
-UX Kit helps your agent decide **what needs to change, what should stay, and how to check the result**. Design a flow, audit an existing feature, implement an authorized fix, or validate an improvement across web and native mobile interfaces.
+Design, audit, implement, and validate interfaces using UX principles, psychology research, and concrete checks.
+
+UX Kit helps your agent decide **what needs to change, what should stay, and how to check the result** across web and native mobile interfaces.
 
 It connects the user's task to evidence, a fitting UX principle, a concrete intervention and a regression check. The aim is a more usable product with its identity and useful behavior intact.
 
