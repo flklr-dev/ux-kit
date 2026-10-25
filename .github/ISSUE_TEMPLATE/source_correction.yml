@@ -1,0 +1,16 @@
+name: Source or knowledge correction
+description: Correct an unsupported claim, scope, or reference
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry ID and skill revision
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Claim, correction and supporting primary source
+      description: Identify applicability, limits, source date and access restrictions
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+name: Propose a principle or improvement
+description: Suggest a scoped addition with evidence and limits.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User task and observed gap
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting source, conditions and counterexample
+      description: Explain where the guidance applies and where it should not.
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: Proportionate change and validation
+      description: State what must remain working and how to check it.

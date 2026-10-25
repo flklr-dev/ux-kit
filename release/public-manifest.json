@@ -1,0 +1,17 @@
+{
+  "files": [
+    "README.md", "LICENSE", "CHANGELOG.md", "CONTRIBUTING.md", ".gitignore",
+    "requirements-dev.txt", ".github/workflows/public-validate.yml",
+    "scripts/__init__.py", "scripts/principles_schema.py",
+    "scripts/validate_repository.py", "scripts/release_package.py",
+    "tests/test_release_package.py", "tests/test_public_payload.py",
+    "release/public-manifest.json",
+    "examples/interactive-basketbay/model.mjs", "examples/interactive-basketbay/model.test.mjs",
+    "examples/interactive-basketbay/index.html", "examples/interactive-basketbay/styles.css",
+    "examples/interactive-basketbay/app.mjs", "examples/interactive-basketbay/server.mjs",
+    "examples/interactive-basketbay/browser-check.mjs",
+    "examples/interactive-basketbay/README.md",
+    "examples/manual-audit-screens/2026-10-24/01-mobile-grocery-checkout.png"
+  ],
+  "directories": ["skills/ux-kit", "assets", "docs/public", ".github/ISSUE_TEMPLATE"]
+}

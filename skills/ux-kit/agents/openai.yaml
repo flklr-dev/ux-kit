@@ -1,0 +1,6 @@
+interface:
+  display_name: "UX Kit"
+  short_description: "Practical UX decisions with evidence and checks"
+  default_prompt: "Use $ux-kit to review this interaction and recommend the smallest justified improvement."
+policy:
+  allow_implicit_invocation: true

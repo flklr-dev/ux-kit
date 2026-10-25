@@ -1,0 +1,2303 @@
+{
+  "entries": [
+    {
+      "id": "UX-COG-001",
+      "source_ids": [
+        "LUX-COG-LOAD"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/cognitive-load.md"
+    },
+    {
+      "id": "UX-COG-002",
+      "source_ids": [
+        "LUX-WORKING-MEMORY"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/working-memory.md"
+    },
+    {
+      "id": "UX-COG-003",
+      "source_ids": [
+        "MILLER-1956",
+        "LUX-CHUNKING"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-COG-002",
+        "UX-COG-004"
+      ],
+      "path": "references/principles/chunking.md"
+    },
+    {
+      "id": "UX-COG-004",
+      "source_ids": [
+        "MILLER-1956"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-COG-002",
+        "UX-COG-003",
+        "UX-CHOICE-001"
+      ],
+      "path": "references/principles/millers-law.md"
+    },
+    {
+      "id": "UX-COG-005",
+      "source_ids": [
+        "LUX-MENTAL-MODEL"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/mental-models.md"
+    },
+    {
+      "id": "UX-COG-006",
+      "source_ids": [
+        "HICK-1952-ABSTRACT",
+        "LUX-HICK"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-COG-007",
+        "UX-CHOICE-001"
+      ],
+      "path": "references/principles/hick-hyman-law.md"
+    },
+    {
+      "id": "UX-COG-007",
+      "source_ids": [
+        "LUX-CHOICE"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-COG-006",
+        "UX-CHOICE-001"
+      ],
+      "path": "references/principles/choice-overload.md"
+    },
+    {
+      "id": "UX-COG-008",
+      "source_ids": [
+        "NNG-RECOGNITION"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/recognition-rather-than-recall.md"
+    },
+    {
+      "id": "UX-COG-009",
+      "source_ids": [
+        "LUX-ATTENTION"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/selective-attention.md"
+    },
+    {
+      "id": "UX-COG-010",
+      "source_ids": [
+        "LUX-BIAS"
+      ],
+      "domain": "cognition-and-choice",
+      "aliases": [
+        "Automation Bias and Calibrated Reliance"
+      ],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/cognitive-bias-screening.md"
+    },
+    {
+      "id": "UX-PERCEPT-001",
+      "source_ids": [
+        "LUX-REGION"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "subscriptions-cancellation"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/common-region.md"
+    },
+    {
+      "id": "UX-PERCEPT-002",
+      "source_ids": [
+        "LUX-PROXIMITY"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/proximity.md"
+    },
+    {
+      "id": "UX-PERCEPT-003",
+      "source_ids": [
+        "LUX-PRAGNANZ"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/pragnanz.md"
+    },
+    {
+      "id": "UX-PERCEPT-004",
+      "source_ids": [
+        "LUX-SIMILARITY"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/similarity.md"
+    },
+    {
+      "id": "UX-PERCEPT-005",
+      "source_ids": [
+        "LUX-CONNECTED"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/uniform-connectedness.md"
+    },
+    {
+      "id": "UX-PERCEPT-006",
+      "source_ids": [
+        "GESTALT-REVIEW"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/good-continuation.md"
+    },
+    {
+      "id": "UX-PERCEPT-007",
+      "source_ids": [
+        "GESTALT-REVIEW"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/closure.md"
+    },
+    {
+      "id": "UX-PERCEPT-008",
+      "source_ids": [
+        "GESTALT-REVIEW"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/figure-ground-separation.md"
+    },
+    {
+      "id": "UX-PERCEPT-009",
+      "source_ids": [
+        "GESTALT-REVIEW"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/common-fate.md"
+    },
+    {
+      "id": "UX-PERCEPT-010",
+      "source_ids": [
+        "NNG-HIERARCHY"
+      ],
+      "domain": "perception-and-grouping",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/visual-hierarchy.md"
+    },
+    {
+      "id": "UX-INTERACT-001",
+      "source_ids": [
+        "MACKENZIE-FITTS",
+        "LUX-FITTS"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-TARGET-001",
+        "UX-INTERACT-010"
+      ],
+      "path": "references/principles/fittss-law.md"
+    },
+    {
+      "id": "UX-INTERACT-004",
+      "source_ids": [
+        "NORMAN-AFFORDANCE"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/affordances.md"
+    },
+    {
+      "id": "UX-INTERACT-005",
+      "source_ids": [
+        "NORMAN-SIGNIFIER"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/signifiers.md"
+    },
+    {
+      "id": "UX-INTERACT-007",
+      "source_ids": [
+        "NORMAN-AFFORDANCE"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/constraints.md"
+    },
+    {
+      "id": "UX-INTERACT-008",
+      "source_ids": [
+        "NNG-HEURISTICS"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/feedback-loops.md"
+    },
+    {
+      "id": "UX-INTERACT-009",
+      "source_ids": [
+        "SHNEIDERMAN-DIRECT"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/direct-manipulation.md"
+    },
+    {
+      "id": "UX-INTERACT-010",
+      "source_ids": [
+        "WCAG-POINTER"
+      ],
+      "domain": "targeting-and-interaction",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/pointer-cancellation.md"
+    },
+    {
+      "id": "UX-EVIDENCE-001",
+      "source_ids": [
+        "WAI-TOOLS"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/evidence.md"
+    },
+    {
+      "id": "UX-FORM-001",
+      "source_ids": [
+        "WCAG-REDUNDANT"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/preserve-work.md"
+    },
+    {
+      "id": "UX-STATE-001",
+      "source_ids": [
+        "NNG-HEURISTICS"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/partial-outcomes.md"
+    },
+    {
+      "id": "UX-CONTROL-001",
+      "source_ids": [
+        "NNG-HEURISTICS"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [
+        "Destructive Gesture Recovery"
+      ],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/cancellation.md"
+    },
+    {
+      "id": "UX-CHOICE-001",
+      "source_ids": [
+        "NNG-HEURISTICS"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/expert-complexity.md"
+    },
+    {
+      "id": "UX-PERMISSION-001",
+      "source_ids": [
+        "ANDROID-PERMISSIONS"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/permissions.md"
+    },
+    {
+      "id": "UX-TARGET-001",
+      "source_ids": [
+        "WCAG-TARGET"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/targets.md"
+    },
+    {
+      "id": "UX-ERROR-001",
+      "source_ids": [
+        "WCAG-ERROR",
+        "WAI-NOTIFY",
+        "ARIA-INVALID"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/errors.md"
+    },
+    {
+      "id": "UX-FOCUS-001",
+      "source_ids": [
+        "APG-DIALOG"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/dialog-focus.md"
+    },
+    {
+      "id": "UX-STATUS-001",
+      "source_ids": [
+        "WCAG-STATUS"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/status.md"
+    },
+    {
+      "id": "UX-AI-001",
+      "source_ids": [
+        "MS-HAI",
+        "GOV-CHECK"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/ai-review.md"
+    },
+    {
+      "id": "UX-WRITING-001",
+      "source_ids": [
+        "WAI-NOTIFY"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/action-labels.md"
+    },
+    {
+      "id": "UX-LEARN-002",
+      "source_ids": [
+        "LUX-SERIAL"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/serial-position-effect.md"
+    },
+    {
+      "id": "UX-LEARN-003",
+      "source_ids": [
+        "LUX-RESTORFF"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/von-restorff-effect.md"
+    },
+    {
+      "id": "UX-LEARN-004",
+      "source_ids": [
+        "LUX-ZEIGARNIK"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/zeigarnik-effect.md"
+    },
+    {
+      "id": "UX-LEARN-005",
+      "source_ids": [
+        "APS-DISTRIBUTED"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/spacing-effect.md"
+    },
+    {
+      "id": "UX-LEARN-007",
+      "source_ids": [
+        "NNG-DISCLOSURE"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/progressive-disclosure.md"
+    },
+    {
+      "id": "UX-LEARN-008",
+      "source_ids": [
+        "NNG-HELP"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/progressive-onboarding.md"
+    },
+    {
+      "id": "UX-LEARN-009",
+      "source_ids": [
+        "NNG-CONTROL"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/error-tolerant-exploration.md"
+    },
+    {
+      "id": "UX-LEARN-010",
+      "source_ids": [
+        "NNG-HELP"
+      ],
+      "domain": "learning-and-memory",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/contextual-help.md"
+    },
+    {
+      "id": "UX-MOTIVE-001",
+      "source_ids": [
+        "LUX-AESTHETIC"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/aesthetic-usability-effect.md"
+    },
+    {
+      "id": "UX-MOTIVE-002",
+      "source_ids": [
+        "LUX-FLOW"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/flow.md"
+    },
+    {
+      "id": "UX-MOTIVE-003",
+      "source_ids": [
+        "LUX-GRADIENT"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/goal-gradient-effect.md"
+    },
+    {
+      "id": "UX-MOTIVE-004",
+      "source_ids": [
+        "LUX-DOHERTY"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/doherty-threshold.md"
+    },
+    {
+      "id": "UX-MOTIVE-005",
+      "source_ids": [
+        "LUX-OCCAM"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/occams-razor.md"
+    },
+    {
+      "id": "UX-MOTIVE-006",
+      "source_ids": [
+        "LUX-ACTIVE"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/paradox-of-the-active-user.md"
+    },
+    {
+      "id": "UX-MOTIVE-007",
+      "source_ids": [
+        "LUX-PARETO"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/pareto-principle.md"
+    },
+    {
+      "id": "UX-MOTIVE-008",
+      "source_ids": [
+        "LUX-PARKINSON"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/parkinsons-law.md"
+    },
+    {
+      "id": "UX-MOTIVE-009",
+      "source_ids": [
+        "LUX-PEAKEND"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/peak-end-rule.md"
+    },
+    {
+      "id": "UX-MOTIVE-010",
+      "source_ids": [
+        "LUX-TESLER"
+      ],
+      "domain": "motivation-and-complexity",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-CHOICE-001"
+      ],
+      "path": "references/principles/teslers-law.md"
+    },
+    {
+      "id": "UX-USE-001",
+      "source_ids": [
+        "NNG-SYSTEM-STATUS"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/visibility-of-system-status.md"
+    },
+    {
+      "id": "UX-USE-002",
+      "source_ids": [
+        "NNG-REALWORLD"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/match-between-system-and-real-world.md"
+    },
+    {
+      "id": "UX-USE-003",
+      "source_ids": [
+        "NNG-CONSISTENCY",
+        "LUX-JAKOB"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [
+        "Jakob’s Law",
+        "Transfer of Learning"
+      ],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-COG-005",
+        "UX-USE-002"
+      ],
+      "path": "references/principles/consistency-and-standards.md"
+    },
+    {
+      "id": "UX-USE-004",
+      "source_ids": [
+        "NNG-SLIPS"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/error-prevention.md"
+    },
+    {
+      "id": "UX-USE-005",
+      "source_ids": [
+        "NNG-MINIMAL"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/aesthetic-and-minimalist-design.md"
+    },
+    {
+      "id": "UX-USE-006",
+      "source_ids": [
+        "NNG-SYSTEM-STATUS",
+        "NNG-CONTROL"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-STATE-001",
+        "UX-AI-001",
+        "UX-CONTROL-001"
+      ],
+      "path": "references/principles/action-state-guards.md"
+    },
+    {
+      "id": "UX-USE-007",
+      "source_ids": [
+        "LUX-POSTEL",
+        "NNG-SLIPS"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/postels-law-and-input-tolerance.md"
+    },
+    {
+      "id": "UX-USE-008",
+      "source_ids": [
+        "NNG-SLIPS"
+      ],
+      "domain": "usability-and-control",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/mode-awareness-and-mode-errors.md"
+    },
+    {
+      "id": "UX-NAV-001",
+      "source_ids": [
+        "NNG-SCENT"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/information-scent.md"
+    },
+    {
+      "id": "UX-NAV-003",
+      "source_ids": [
+        "NNG-BREADCRUMBS",
+        "GOV-NAV"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [
+        "Breadcrumbs and Hierarchy"
+      ],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-NAV-009"
+      ],
+      "path": "references/principles/wayfinding-and-current-location.md"
+    },
+    {
+      "id": "UX-NAV-004",
+      "source_ids": [
+        "GOV-NAV"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [
+        "Findability"
+      ],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/task-oriented-navigation.md"
+    },
+    {
+      "id": "UX-NAV-005",
+      "source_ids": [
+        "NNG-CARDSORT"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/classification-and-user-vocabulary.md"
+    },
+    {
+      "id": "UX-NAV-006",
+      "source_ids": [
+        "NNG-FACETS"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [
+        "Filter-State Visibility"
+      ],
+      "feature_tags": [
+        "search-filtering"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/faceted-filtering.md"
+    },
+    {
+      "id": "UX-NAV-007",
+      "source_ids": [
+        "NNG-SEARCH"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [],
+      "feature_tags": [
+        "search-filtering"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/search-reformulation-and-recovery.md"
+    },
+    {
+      "id": "UX-NAV-009",
+      "source_ids": [
+        "GOV-BACK",
+        "GOV-QUESTIONS"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [],
+      "feature_tags": [
+        "search-filtering"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/back-navigation-and-state-retention.md"
+    },
+    {
+      "id": "UX-FORM-002",
+      "source_ids": [
+        "WAI-LABELS"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/persistent-field-labels.md"
+    },
+    {
+      "id": "UX-FORM-003",
+      "source_ids": [
+        "WCAG-INPUT-PURPOSE",
+        "WAI-VALIDATE"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "signup-auth"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/semantic-input-and-autofill.md"
+    },
+    {
+      "id": "UX-FORM-004",
+      "source_ids": [
+        "WAI-VALIDATE"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/validation-timing.md"
+    },
+    {
+      "id": "UX-FORM-005",
+      "source_ids": [
+        "GOV-QUESTIONS",
+        "WAI-VALIDATE"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/required-and-optional-information.md"
+    },
+    {
+      "id": "UX-FORM-006",
+      "source_ids": [
+        "WCAG-AUTH"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "signup-auth"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/accessible-authentication.md"
+    },
+    {
+      "id": "UX-FORM-007",
+      "source_ids": [
+        "GOV-CHECK"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-AI-001",
+        "UX-CONTROL-001"
+      ],
+      "path": "references/principles/check-answers-before-commitment.md"
+    },
+    {
+      "id": "UX-FORM-008",
+      "source_ids": [
+        "GOV-QUESTIONS",
+        "GOV-ACCOUNTS"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "signup-auth"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/progressive-profiling.md"
+    },
+    {
+      "id": "UX-FORM-009",
+      "source_ids": [
+        "GOV-QUESTIONS"
+      ],
+      "domain": "forms-onboarding-and-accounts",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/multi-step-progress-and-branching.md"
+    },
+    {
+      "id": "UX-TRUST-001",
+      "source_ids": [
+        "FTC-DARK-PATTERNS"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/total-cost-transparency.md"
+    },
+    {
+      "id": "UX-TRUST-003",
+      "source_ids": [
+        "GOV-CONFIRM"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/transaction-confirmation-and-receipts.md"
+    },
+    {
+      "id": "UX-TRUST-004",
+      "source_ids": [
+        "GOV-ACCOUNTS"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/guest-checkout-and-account-choice.md"
+    },
+    {
+      "id": "UX-TRUST-005",
+      "source_ids": [
+        "FTC-DARK-PATTERNS"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "subscriptions-cancellation"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/subscription-and-renewal-clarity.md"
+    },
+    {
+      "id": "UX-TRUST-006",
+      "source_ids": [
+        "FTC-DARK-PATTERNS",
+        "NNG-CONTROL"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "subscriptions-cancellation"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/cancellation-parity.md"
+    },
+    {
+      "id": "UX-TRUST-008",
+      "source_ids": [
+        "FTC-DARK-PATTERNS"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/trust-and-claim-verifiability.md"
+    },
+    {
+      "id": "UX-TRUST-009",
+      "source_ids": [
+        "FTC-DARK-PATTERNS"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/truthful-scarcity-and-social-proof.md"
+    },
+    {
+      "id": "UX-TRUST-010",
+      "source_ids": [
+        "GOV-CONFIRM"
+      ],
+      "domain": "commerce-and-trust",
+      "aliases": [],
+      "feature_tags": [
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/accountability-and-transaction-history.md"
+    },
+    {
+      "id": "UX-DATA-001",
+      "source_ids": [
+        "AF-TABLES",
+        "AF-UNCERTAINTY"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [
+        "Comparable Pricing and Units"
+      ],
+      "feature_tags": [
+        "dashboards-tables",
+        "checkout-payments"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/units-baselines-and-data-context.md"
+    },
+    {
+      "id": "UX-DATA-002",
+      "source_ids": [
+        "AF-TABLES"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/comparison-alignment.md"
+    },
+    {
+      "id": "UX-DATA-003",
+      "source_ids": [
+        "SHNEIDERMAN-DIRECT",
+        "CARBON-TABLE"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/overview-and-details-on-demand.md"
+    },
+    {
+      "id": "UX-DATA-004",
+      "source_ids": [
+        "AF-TABLES"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/progressive-precision.md"
+    },
+    {
+      "id": "UX-DATA-006",
+      "source_ids": [
+        "CARBON-TABLE"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/sorting-semantics.md"
+    },
+    {
+      "id": "UX-DATA-007",
+      "source_ids": [
+        "CARBON-TABLE"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [
+        "Granular Application Scope"
+      ],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-USE-006",
+        "UX-STATE-001"
+      ],
+      "path": "references/principles/bulk-selection-scope.md"
+    },
+    {
+      "id": "UX-DATA-008",
+      "source_ids": [
+        "NNG-SYSTEM-STATUS",
+        "AF-UNCERTAINTY"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/empty-unavailable-and-zero-data.md"
+    },
+    {
+      "id": "UX-DATA-009",
+      "source_ids": [
+        "AF-CHARTS"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/visual-encoding-and-chart-choice.md"
+    },
+    {
+      "id": "UX-DATA-010",
+      "source_ids": [
+        "AF-UNCERTAINTY"
+      ],
+      "domain": "data-and-expert-tools",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/uncertainty-and-missing-data.md"
+    },
+    {
+      "id": "UX-CONTENT-001",
+      "source_ids": [
+        "DIGITAL-PLAIN"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/plain-language.md"
+    },
+    {
+      "id": "UX-CONTENT-002",
+      "source_ids": [
+        "DIGITAL-PLAIN"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/terminology-research.md"
+    },
+    {
+      "id": "UX-CONTENT-003",
+      "source_ids": [
+        "WAI-HEADINGS",
+        "DIGITAL-PLAIN"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/content-hierarchy-and-scanning.md"
+    },
+    {
+      "id": "UX-CONTENT-004",
+      "source_ids": [
+        "WCAG-LINK"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/link-purpose.md"
+    },
+    {
+      "id": "UX-CONTENT-005",
+      "source_ids": [
+        "W3C-TEXT-EXPANSION"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/translation-expansion-and-layout.md"
+    },
+    {
+      "id": "UX-CONTENT-006",
+      "source_ids": [
+        "ICU-MESSAGES"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/pluralization-and-counts.md"
+    },
+    {
+      "id": "UX-CONTENT-007",
+      "source_ids": [
+        "ICU-DATES",
+        "ICU-NUMBERS",
+        "ECMA402-DATETIME"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/locale-sensitive-formats.md"
+    },
+    {
+      "id": "UX-CONTENT-008",
+      "source_ids": [
+        "W3C-BIDI",
+        "W3C-RTL"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/bidirectional-and-rtl-layout.md"
+    },
+    {
+      "id": "UX-CONTENT-009",
+      "source_ids": [
+        "NNG-SYSTEM-STATUS",
+        "NNG-CONTROL"
+      ],
+      "domain": "content-and-localization",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/tone-matched-to-consequences.md"
+    },
+    {
+      "id": "UX-ACCESS-001",
+      "source_ids": [
+        "WCAG-KEYBOARD",
+        "WCAG-NO-TRAP"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/keyboard-operation-and-no-traps.md"
+    },
+    {
+      "id": "UX-ACCESS-002",
+      "source_ids": [
+        "WCAG-FOCUS-VISIBLE",
+        "WCAG-FOCUS-OBSCURED"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/visible-and-unobscured-focus.md"
+    },
+    {
+      "id": "UX-ACCESS-003",
+      "source_ids": [
+        "WCAG-NAME-ROLE"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [
+        "UX-ERROR-001",
+        "UX-ACCESS-001"
+      ],
+      "path": "references/principles/semantic-name-role-and-value.md"
+    },
+    {
+      "id": "UX-ACCESS-004",
+      "source_ids": [
+        "WCAG-TEXT-CONTRAST",
+        "WCAG-NON-TEXT-CONTRAST",
+        "WCAG-COLOR"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/contrast-and-color-independence.md"
+    },
+    {
+      "id": "UX-ACCESS-005",
+      "source_ids": [
+        "WCAG-RESIZE",
+        "WCAG-REFLOW"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/text-resize-and-reflow.md"
+    },
+    {
+      "id": "UX-ACCESS-006",
+      "source_ids": [
+        "WCAG-PAUSE",
+        "WCAG-MOTION"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "uploads-background"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/reduced-motion-and-pause-controls.md"
+    },
+    {
+      "id": "UX-ACCESS-007",
+      "source_ids": [
+        "WCAG-NON-TEXT",
+        "WCAG-CAPTIONS",
+        "WCAG-DESCRIPTION"
+      ],
+      "domain": "accessibility-and-inclusion",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "related_ids": [],
+      "path": "references/principles/equivalent-access-to-non-text-content.md"
+    },
+    {
+      "id": "UX-NAV-010",
+      "source_ids": [
+        "ANDROID-DEEP"
+      ],
+      "domain": "information-architecture-and-navigation",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/deep-links-and-return-paths.md"
+    },
+    {
+      "id": "UX-MOBILE-001",
+      "source_ids": [
+        "ANDROID-NAV"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "navigation-menus"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/platform-navigation-and-back-behavior.md"
+    },
+    {
+      "id": "UX-MOBILE-002",
+      "source_ids": [
+        "ANDROID-INSETS",
+        "APPLE-LAYOUT"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/safe-areas-and-keyboard-insets.md"
+    },
+    {
+      "id": "UX-MOBILE-003",
+      "source_ids": [
+        "APPLE-ACCESS",
+        "APPLE-LAYOUT"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "ios"
+      ],
+      "related_ids": [],
+      "path": "references/principles/native-text-scaling.md"
+    },
+    {
+      "id": "UX-MOBILE-004",
+      "source_ids": [
+        "APPLE-GESTURES"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "ios"
+      ],
+      "related_ids": [],
+      "path": "references/principles/discoverable-gesture-alternatives.md"
+    },
+    {
+      "id": "UX-MOBILE-006",
+      "source_ids": [
+        "ANDROID-STATE"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "offline-sync"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/application-interruption-and-restoration.md"
+    },
+    {
+      "id": "UX-MOBILE-007",
+      "source_ids": [
+        "ANDROID-OFFLINE"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "offline-sync"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/offline-capability-and-honest-availability.md"
+    },
+    {
+      "id": "UX-MOBILE-008",
+      "source_ids": [
+        "ANDROID-OFFLINE"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "offline-sync"
+      ],
+      "platforms": [
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/synchronization-conflict-resolution.md"
+    },
+    {
+      "id": "UX-MOBILE-009",
+      "source_ids": [
+        "ANDROID-NOTIFY",
+        "APPLE-NOTIFY"
+      ],
+      "domain": "native-mobile-and-resilience",
+      "aliases": [],
+      "feature_tags": [
+        "onboarding-permissions"
+      ],
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "related_ids": [],
+      "path": "references/principles/notification-consent-and-control.md"
+    },
+    {
+      "id": "UX-AI-002",
+      "source_ids": [
+        "MS-HAI-PAPER"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/meaningful-ai-uncertainty.md"
+    },
+    {
+      "id": "UX-AI-003",
+      "source_ids": [
+        "MS-HAI-PAPER"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/ai-provenance-and-evidence.md"
+    },
+    {
+      "id": "UX-AI-004",
+      "source_ids": [
+        "MS-HAI-PAPER"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-AI-001",
+        "UX-STATE-001",
+        "UX-USE-006"
+      ],
+      "path": "references/principles/correction-and-override.md"
+    },
+    {
+      "id": "UX-AI-006",
+      "source_ids": [
+        "MS-HAI-PAPER",
+        "NNG-CONTROL"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "ai-review-bulk"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/human-escalation-and-fallback.md"
+    },
+    {
+      "id": "UX-AI-007",
+      "source_ids": [
+        "MS-HAI-PAPER",
+        "FTC-DARK-PATTERNS"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/ai-data-use-and-disclosure.md"
+    },
+    {
+      "id": "UX-AI-008",
+      "source_ids": [
+        "MS-HAI-PAPER",
+        "NNG-CONTROL"
+      ],
+      "domain": "human-ai-and-agency",
+      "aliases": [],
+      "feature_tags": [
+        "settings-privacy"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [
+        "UX-AI-007",
+        "UX-CONTROL-001"
+      ],
+      "path": "references/principles/agency-preserving-defaults.md"
+    },
+    {
+      "id": "UX-RESEARCH-001",
+      "source_ids": [
+        "GOV-CONTEXT"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/contextual-task-analysis.md"
+    },
+    {
+      "id": "UX-RESEARCH-002",
+      "source_ids": [
+        "GOV-USABILITY",
+        "GOV-PARTICIPANTS"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/representative-usability-testing.md"
+    },
+    {
+      "id": "UX-RESEARCH-003",
+      "source_ids": [
+        "GOV-INTERVIEW",
+        "GOV-ANALYSIS",
+        "GOV-USABILITY"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "forms-editing"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/observed-behavior-and-self-report.md"
+    },
+    {
+      "id": "UX-RESEARCH-004",
+      "source_ids": [
+        "NNG-SEVERITY",
+        "WAI-TOOLS"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/heuristic-evaluation-calibration.md"
+    },
+    {
+      "id": "UX-RESEARCH-005",
+      "source_ids": [
+        "GOV-RESEARCH-PLAN",
+        "GOV-ANALYSIS"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/triangulation.md"
+    },
+    {
+      "id": "UX-RESEARCH-006",
+      "source_ids": [
+        "MS-EXPERIMENT",
+        "MAHARAJ-STOPPING"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/causal-claims-and-experiments.md"
+    },
+    {
+      "id": "UX-RESEARCH-007",
+      "source_ids": [
+        "MAHARAJ-STOPPING"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/experiment-stopping-and-repeated-looks.md"
+    },
+    {
+      "id": "UX-RESEARCH-008",
+      "source_ids": [
+        "MS-EXPERIMENT"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/metrics-and-guardrails.md"
+    },
+    {
+      "id": "UX-RESEARCH-009",
+      "source_ids": [
+        "GOV-PARTICIPANTS",
+        "GOV-RESEARCH-PLAN"
+      ],
+      "domain": "research-and-evaluation",
+      "aliases": [],
+      "feature_tags": [
+        "dashboards-tables"
+      ],
+      "platforms": [
+        "platform-agnostic"
+      ],
+      "related_ids": [],
+      "path": "references/principles/audience-and-experience-segmentation.md"
+    }
+  ]
+}

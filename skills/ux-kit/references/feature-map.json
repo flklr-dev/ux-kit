@@ -1,0 +1,304 @@
+{
+  "policy": "Task phrases aid lookup; actual agent selection is evaluated separately. IDs count canonical entries, not aliases.",
+  "features": [
+    {
+      "id": "signup-auth",
+      "path": "references/features/signup-auth.md",
+      "triggers": [
+        "sign up",
+        "sign in",
+        "account recovery"
+      ],
+      "entry_ids": [
+        "UX-FORM-006",
+        "UX-FORM-003",
+        "UX-FORM-008",
+        "UX-FORM-001",
+        "UX-ERROR-001",
+        "UX-TRUST-004"
+      ]
+    },
+    {
+      "id": "onboarding-permissions",
+      "path": "references/features/onboarding-permissions.md",
+      "triggers": [
+        "first use",
+        "permission denied",
+        "optional reminders"
+      ],
+      "entry_ids": [
+        "UX-PERMISSION-001",
+        "UX-LEARN-008",
+        "UX-LEARN-010",
+        "UX-MOTIVE-003",
+        "UX-MOBILE-009",
+        "UX-ACCESS-007",
+        "UX-COG-001",
+        "UX-PERCEPT-005",
+        "UX-LEARN-002",
+        "UX-LEARN-004",
+        "UX-LEARN-005",
+        "UX-MOTIVE-006"
+      ]
+    },
+    {
+      "id": "forms-editing",
+      "path": "references/features/forms-editing.md",
+      "triggers": [
+        "save draft",
+        "edit form",
+        "validation errors"
+      ],
+      "entry_ids": [
+        "UX-FORM-001",
+        "UX-ERROR-001",
+        "UX-FORM-002",
+        "UX-FORM-003",
+        "UX-FORM-004",
+        "UX-FORM-005",
+        "UX-USE-006",
+        "UX-ACCESS-001",
+        "UX-ACCESS-003",
+        "UX-COG-003",
+        "UX-COG-008",
+        "UX-PERCEPT-002",
+        "UX-INTERACT-001",
+        "UX-INTERACT-004",
+        "UX-INTERACT-005",
+        "UX-INTERACT-007",
+        "UX-INTERACT-009",
+        "UX-INTERACT-010",
+        "UX-TARGET-001",
+        "UX-WRITING-001",
+        "UX-LEARN-009",
+        "UX-LEARN-010",
+        "UX-MOTIVE-001",
+        "UX-MOTIVE-002",
+        "UX-MOTIVE-008",
+        "UX-MOTIVE-010",
+        "UX-USE-007",
+        "UX-FORM-009",
+        "UX-CONTENT-001",
+        "UX-CONTENT-005",
+        "UX-CONTENT-007",
+        "UX-CONTENT-008",
+        "UX-CONTENT-009",
+        "UX-ACCESS-002",
+        "UX-ACCESS-005",
+        "UX-MOBILE-002",
+        "UX-MOBILE-003",
+        "UX-MOBILE-004",
+        "UX-RESEARCH-002",
+        "UX-RESEARCH-003"
+      ]
+    },
+    {
+      "id": "checkout-payments",
+      "path": "references/features/checkout-payments.md",
+      "triggers": [
+        "checkout",
+        "pay",
+        "price comparison",
+        "receipt"
+      ],
+      "entry_ids": [
+        "UX-TRUST-001",
+        "UX-DATA-001",
+        "UX-FORM-007",
+        "UX-TRUST-003",
+        "UX-TRUST-004",
+        "UX-TRUST-008",
+        "UX-TRUST-009",
+        "UX-STATE-001",
+        "UX-USE-006",
+        "UX-COG-006",
+        "UX-COG-007",
+        "UX-PERCEPT-010",
+        "UX-MOTIVE-009",
+        "UX-TRUST-010"
+      ]
+    },
+    {
+      "id": "subscriptions-cancellation",
+      "path": "references/features/subscriptions-cancellation.md",
+      "triggers": [
+        "subscription cancellation",
+        "renewal",
+        "end membership"
+      ],
+      "entry_ids": [
+        "UX-TRUST-005",
+        "UX-TRUST-006",
+        "UX-CONTROL-001",
+        "UX-WRITING-001",
+        "UX-PERCEPT-001",
+        "UX-STATE-001"
+      ]
+    },
+    {
+      "id": "search-filtering",
+      "path": "references/features/search-filtering.md",
+      "triggers": [
+        "search and filters",
+        "no results",
+        "find a record"
+      ],
+      "entry_ids": [
+        "UX-NAV-001",
+        "UX-NAV-005",
+        "UX-NAV-006",
+        "UX-NAV-007",
+        "UX-NAV-009",
+        "UX-CHOICE-001",
+        "UX-DATA-007"
+      ]
+    },
+    {
+      "id": "navigation-menus",
+      "path": "references/features/navigation-menus.md",
+      "triggers": [
+        "menus",
+        "Back",
+        "direct links"
+      ],
+      "entry_ids": [
+        "UX-NAV-001",
+        "UX-NAV-003",
+        "UX-NAV-004",
+        "UX-NAV-005",
+        "UX-NAV-009",
+        "UX-NAV-010",
+        "UX-USE-003",
+        "UX-COG-008",
+        "UX-COG-004",
+        "UX-PERCEPT-006",
+        "UX-PERCEPT-007",
+        "UX-CONTENT-002",
+        "UX-CONTENT-003",
+        "UX-CONTENT-004",
+        "UX-MOBILE-001"
+      ]
+    },
+    {
+      "id": "dashboards-tables",
+      "path": "references/features/dashboards-tables.md",
+      "triggers": [
+        "dense expert table",
+        "dashboard",
+        "chart",
+        "bulk selection"
+      ],
+      "entry_ids": [
+        "UX-CHOICE-001",
+        "UX-DATA-001",
+        "UX-DATA-002",
+        "UX-DATA-004",
+        "UX-DATA-006",
+        "UX-DATA-007",
+        "UX-DATA-008",
+        "UX-DATA-009",
+        "UX-DATA-010",
+        "UX-ACCESS-004",
+        "UX-COG-002",
+        "UX-PERCEPT-003",
+        "UX-PERCEPT-004",
+        "UX-EVIDENCE-001",
+        "UX-LEARN-003",
+        "UX-MOTIVE-007",
+        "UX-USE-005",
+        "UX-USE-008",
+        "UX-DATA-003",
+        "UX-CONTENT-006",
+        "UX-RESEARCH-001",
+        "UX-RESEARCH-004",
+        "UX-RESEARCH-005",
+        "UX-RESEARCH-006",
+        "UX-RESEARCH-007",
+        "UX-RESEARCH-008",
+        "UX-RESEARCH-009"
+      ]
+    },
+    {
+      "id": "uploads-background",
+      "path": "references/features/uploads-background.md",
+      "triggers": [
+        "upload",
+        "pending work",
+        "stop retry"
+      ],
+      "entry_ids": [
+        "UX-USE-006",
+        "UX-INTERACT-008",
+        "UX-STATE-001",
+        "UX-CONTROL-001",
+        "UX-STATUS-001",
+        "UX-ACCESS-006",
+        "UX-COG-009",
+        "UX-PERCEPT-009",
+        "UX-MOTIVE-004",
+        "UX-USE-001"
+      ]
+    },
+    {
+      "id": "offline-sync",
+      "path": "references/features/offline-sync.md",
+      "triggers": [
+        "offline",
+        "sync conflict",
+        "resume interrupted work"
+      ],
+      "entry_ids": [
+        "UX-MOBILE-006",
+        "UX-MOBILE-007",
+        "UX-MOBILE-008",
+        "UX-FORM-001",
+        "UX-STATE-001",
+        "UX-NAV-009"
+      ]
+    },
+    {
+      "id": "ai-review-bulk",
+      "path": "references/features/ai-review-bulk.md",
+      "triggers": [
+        "AI suggestions",
+        "Apply selected",
+        "uncertain AI results"
+      ],
+      "entry_ids": [
+        "UX-AI-001",
+        "UX-AI-002",
+        "UX-AI-003",
+        "UX-AI-004",
+        "UX-DATA-007",
+        "UX-USE-006",
+        "UX-STATE-001",
+        "UX-AI-006",
+        "UX-COG-010",
+        "UX-USE-004"
+      ]
+    },
+    {
+      "id": "settings-privacy",
+      "path": "references/features/settings-privacy.md",
+      "triggers": [
+        "preferences",
+        "privacy",
+        "automation scope"
+      ],
+      "entry_ids": [
+        "UX-COG-005",
+        "UX-USE-003",
+        "UX-WRITING-001",
+        "UX-AI-007",
+        "UX-AI-008",
+        "UX-MOBILE-009",
+        "UX-CONTROL-001",
+        "UX-FOCUS-001",
+        "UX-PERCEPT-008",
+        "UX-LEARN-007",
+        "UX-MOTIVE-005",
+        "UX-USE-002"
+      ]
+    }
+  ]
+}

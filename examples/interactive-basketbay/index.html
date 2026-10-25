@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BasketBay · UX Kit interactive demo</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+  <aside class="lab" aria-label="Demo controls"><strong>UX Kit / interactive pilot</strong><p>Fictional browser demo · USD · no real order or payment. Fees, delivery times and offers are illustrative.</p><div class="lab-links"><a href="../manual-audit-screens/2026-10-24/01-mobile-grocery-checkout.png" target="_blank" rel="noopener">Original practice image ↗</a><label><input type="checkbox" id="fail"> Fail next request</label></div></aside>
+  <main>
+    <header><a class="back" href="#items">‹ Cart</a><a href="#checkout" class="brand" aria-label="BasketBay checkout">BasketBay<span aria-hidden="true">✳</span></a><button class="link" id="help">Help</button></header>
+    <h1 id="checkout" tabindex="-1">Checkout</h1>
+    <nav aria-label="Checkout progress"><ol class="steps"><li><span>✓</span> Cart</li><li aria-current="step"><span>2</span> Details</li><li id="last-step"><span>3</span> Review</li></ol></nav>
+    <form id="checkout-form" novalidate>
+      <fieldset id="controls"><legend class="sr">Order details</legend>
+        <section class="card"><div class="heading"><h2>Deliver to</h2><button class="link" type="button" id="edit-address">Edit</button></div><p class="address"><span class="home" aria-hidden="true">⌂</span><span><strong>Home</strong><br><span id="address-display">18 Cedar Lane</span></span></p><div id="address-editor" hidden><label for="address">Delivery address</label><input id="address" value="18 Cedar Lane" autocomplete="street-address"><p id="address-error" class="error" hidden></p></div></section>
+        <section class="card" id="items"><h2>Your items <span id="item-count">(4)</span></h2><div id="item-list"></div></section>
+        <section class="card delivery"><h2 id="delivery-title">Delivery</h2><div role="group" aria-labelledby="delivery-title"><label class="delivery-option"><input type="radio" name="delivery" value="standard"><span><strong>Standard</strong><small>3–5 days</small></span><span class="price">No upgrade</span></label><label class="delivery-option"><input type="radio" name="delivery" value="express" checked><span><strong>Express</strong><small>1–2 days</small></span><span class="price">+$4.99</span></label></div><p class="caption">Base delivery fee shown before you place the demo order.</p></section>
+        <section class="card optional"><details><summary>Delivery instructions <span>(optional)</span></summary><label for="instructions">Instructions for the driver</label><textarea id="instructions" rows="2" maxlength="300" placeholder="e.g. Leave at the side door"></textarea></details><details><summary>Have a promo code?</summary><label for="promo">Promo code</label><div class="inline"><input id="promo" aria-describedby="promo-help promo-error" autocomplete="off"><button type="button" id="apply-promo">Apply</button></div><p id="promo-help" class="caption">Try DEMO5 for $5 off items in this demo.</p><p id="promo-error" class="error" hidden></p><p id="promo-status" role="status"></p></details></section>
+        <section class="card optional"><details><summary>Order frequency <span id="frequency-label">One-time order</span></summary><p class="caption">This demo can simulate a weekly repeat. No subscription is created.</p><label class="frequency"><input type="radio" name="frequency" value="once" checked> One-time order</label><label class="frequency"><input type="radio" name="frequency" value="weekly"> Repeat every week</label><p class="caption">Review the amount and frequency below before confirming.</p></details></section>
+      </fieldset>
+      <section class="card summary" id="summary" tabindex="-1" aria-labelledby="summary-title"><h2 id="summary-title">Order summary</h2><dl id="costs"></dl><div class="total"><strong id="total-label">Subtotal</strong><strong id="total-value">$23.99</strong></div><p class="caption" id="cost-note">Delivery and service fees still to be added.</p><p id="repeat-note" hidden></p></section>
+      <p id="request-error" class="error notice" role="alert" hidden></p>
+      <div class="action"><button class="primary" type="submit" id="continue">Continue</button><p class="caption" id="action-note">See the full total before placing your demo order.</p></div>
+      <p class="sr" id="status" role="status"></p>
+    </form>
+    <section class="card success" id="confirmation" tabindex="-1" hidden><span class="success-mark" aria-hidden="true">✓</span><h2>Demo order placed</h2><p id="receipt"></p><p>No payment was taken. This result is stored only until you reload.</p><button type="button" id="restart">Start another demo</button></section>
+    <footer><strong>BasketBay</strong><p>Good groceries. A little less effort.</p><button class="link" type="button" id="offers">Explore demo offers</button></footer>
+  </main>
+  <dialog id="info" aria-labelledby="info-title"><h2 id="info-title"></h2><p id="info-copy"></p><button id="close-info" autofocus>Close</button></dialog>
+  <script type="module" src="app.mjs"></script>
+</body></html>

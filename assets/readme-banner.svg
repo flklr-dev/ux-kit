@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+<title id="title">UX Kit — better decisions, better interfaces</title><desc id="desc">An open-source UX skill for coding agents. Task, evidence, change and check.</desc>
+<rect width="1280" height="380" fill="#f5f2e9"/>
+<path d="M0 379H1280" stroke="#cfc9ba"/>
+<g fill="#162e26" font-family="Arial, Helvetica, sans-serif">
+<text x="56" y="65" font-size="18" letter-spacing="3">A PRACTICAL UX SKILL FOR CODING AGENTS</text>
+<text x="52" y="181" font-size="112" font-weight="800" letter-spacing="-7">UX Kit<tspan fill="#b94720">.</tspan></text>
+<text x="57" y="239" font-size="30">Better decisions. Better interfaces.</text>
+<text x="57" y="322" font-size="18">DESIGN / AUDIT / IMPLEMENT / VALIDATE</text>
+</g>
+<g transform="translate(815 65)" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#162e26">
+<path d="M20 29V210" stroke="#b8c1ad" stroke-width="2"/>
+<g><circle cx="20" cy="20" r="8" fill="#b94720"/><text x="49" y="27">Start with the task.</text></g>
+<g transform="translate(0 63)"><circle cx="20" cy="20" r="8" fill="#162e26"/><text x="49" y="27">Follow the evidence.</text></g>
+<g transform="translate(0 126)"><circle cx="20" cy="20" r="8" fill="#162e26"/><text x="49" y="27">Make a fitting change.</text></g>
+<g transform="translate(0 189)"><circle cx="20" cy="20" r="8" fill="#162e26"/><text x="49" y="27">Check what changed.</text></g>
+</g></svg>

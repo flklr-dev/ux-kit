@@ -1,0 +1,26 @@
+name: Report a UX Kit problem
+description: Report installation trouble or a harmful/inaccurate recommendation.
+body:
+  - type: markdown
+    attributes:
+      value: "Use sanitized examples only. Do not include tokens, customer data, confidential code or raw private agent traces."
+  - type: input
+    id: version
+    attributes:
+      label: Skill commit and agent/version
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and available evidence
+      description: Include the requested mode and whether edits were authorized.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: Explain the user consequence, preserved behavior and any reproducible check.
+    validations:
+      required: true

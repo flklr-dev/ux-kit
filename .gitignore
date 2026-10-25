@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.tools/
+.scratch/
+.superpowers/
+# Generated local evidence and release bundles do not belong in public commits.
+evals/results/interactive-pilot-20261025/
+dist/
