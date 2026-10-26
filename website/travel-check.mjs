@@ -1,0 +1,47 @@
+import assert from 'node:assert/strict';
+const {chromium} = await import(process.env.UXKIT_PLAYWRIGHT || 'playwright');
+const browser = await chromium.launch({channel:'msedge',headless:true});
+const page = await browser.newPage({viewport:{width:1440,height:1000}, reducedMotion:'no-preference'});
+const base = process.env.UXKIT_SITE_URL || 'http://127.0.0.1:4174/';
+const stage = () => page.locator('#trip-demo').getAttribute('data-stage');
+const playing = () => page.locator('#trip-demo').getAttribute('data-playing');
+try {
+  await page.clock.install();
+  await page.goto(base);
+  await page.clock.runFor(61000);
+  assert.equal(await stage(),'before','offscreen tour must not advance');
+  await page.locator('#trip-demo').scrollIntoViewIfNeeded();
+  await page.mouse.move(0,0);
+  await page.clock.runFor(100);
+  await page.clock.runFor(20500);
+  assert.equal(await stage(),'audit');
+  await page.clock.runFor(20000);
+  assert.equal(await stage(),'after');
+  await page.clock.runFor(20000);
+  assert.equal(await stage(),'before');
+  await page.locator('#tour-playback').click();
+  await page.clock.runFor(61000);
+  assert.equal(await stage(),'before');assert.equal(await playing(),'false');
+  await page.locator('#tour-playback').click();
+  await page.clock.runFor(20500);assert.equal(await stage(),'audit');
+  await page.locator('button[data-stage=after]').click();
+  await page.clock.runFor(61000);
+  assert.equal(await stage(),'after');assert.equal(await playing(),'false');
+  await page.locator('#tour-playback').click();
+  await page.locator('.booking-times input').first().focus();
+  await page.clock.runFor(61000);
+  assert.equal(await stage(),'after');assert.equal(await playing(),'false');
+  await page.locator('#tour-playback').click();
+  await page.mouse.move(0,0);
+  await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange'));});
+  await page.clock.runFor(61000);assert.equal(await stage(),'after','hidden page must not advance');
+  await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,value:false});document.dispatchEvent(new Event('visibilitychange'));});
+  await page.clock.runFor(20500);assert.equal(await stage(),'before');
+  await page.emulateMedia({reducedMotion:'reduce'});
+  // Media-query change events arrive on the browser rendering cycle, not the virtual timer.
+  await page.waitForFunction(() => document.querySelector('#trip-demo').dataset.playing === 'false', {}, {polling:50,timeout:3000});
+  await page.clock.runFor(61000);assert.equal(await stage(),'before');assert.equal(await playing(),'false');
+  await page.goto(base);await page.locator('#trip-demo').scrollIntoViewIfNeeded();
+  await page.clock.runFor(61000);assert.equal(await stage(),'before');assert.equal(await playing(),'false');
+  console.log('PASS: 20-second complete cycle; pause/resume; manual and keyboard stops; offscreen/hidden suspension; reduced-motion initial and changed preference.');
+} finally {await browser.close();}

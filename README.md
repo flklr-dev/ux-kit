@@ -2,7 +2,7 @@
 
 <p align="center"><strong>A UX-focused skill for AI coding agents.</strong><br>Open source · MIT · Codex & Claude Code</p>
 
-<p align="center"><a href="#install">Install</a> · <a href="#see-the-difference">See an example</a> · <a href="#built-on-ux-research-and-practice">Research & principles</a> · <a href="docs/public/coverage.md">Coverage</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
+<p align="center"><a href="https://flklr-dev.github.io/ux-kit/">Website</a> · <a href="#install">Install</a> · <a href="#see-the-difference">See an example</a> · <a href="#built-on-ux-research-and-practice">Research & principles</a> · <a href="docs/public/coverage.md">Coverage</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
 
 Design, audit, implement, and validate interfaces using UX principles, psychology research, and concrete checks.
 

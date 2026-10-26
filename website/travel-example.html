@@ -1,0 +1,58 @@
+  <section class="example-section wrap" id="example" aria-labelledby="example-title">
+    <div class="section-intro"><h2 id="example-title">From friction<br>to a clear next step.</h2><p>A beautiful screen can still leave people guessing. Watch UX Kit find the friction, then try the fix.</p></div>
+    <div class="trip-demo" id="trip-demo" data-stage="after">
+      <div class="trip-toolbar" hidden>
+        <div class="trip-stages" role="group" aria-label="Explore how UX Kit works">
+          <button type="button" data-stage="before" aria-pressed="false"><span>01</span> Original flow</button>
+          <button type="button" data-stage="audit" aria-pressed="false"><span>02</span> UX review</button>
+          <button type="button" data-stage="after" aria-pressed="true"><span>03</span> Improved flow</button>
+        </div>
+        <button type="button" class="tour-playback" id="tour-playback" aria-label="Pause automatic tour"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="playback-icon" d="M9 5v14M15 5v14"/></svg><span id="playback-label">Pause</span><small>20s / stage</small></button>
+      </div>
+      <div class="trip-exhibit">
+        <div class="trip-canvas">
+          <article class="roam-window" aria-label="Roam travel booking example">
+            <div class="roam-nav"><span class="roam-brand">roam<span>®</span></span><span>Made for the memorable.</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg></div>
+            <div class="roam-body">
+              <div class="trip-story">
+                <div class="trip-photo"><img src="assets/kyoto-walk.png" width="1536" height="1024" loading="lazy" alt="A quiet lane leading toward Yasaka Pagoda in Kyoto"><span>KYOTO, JAPAN</span></div>
+                <div class="trip-editorial"><p class="trip-category">Small-group walks · With a local guide</p><h3>A slower side<br>of Kyoto.</h3><p>Quiet lanes, hidden gardens, and a city worth getting lost in.</p><div class="trip-facts"><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>3 hours</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 4v2"/></svg>Up to 6 people</span></div></div>
+              </div>
+              <div class="booking-column">
+                <div class="trip-booking" id="trip-booking">
+                  <div class="booking-heading"><h4>Your Kyoto walk</h4><p><strong>$84</strong> / person · USD</p></div>
+                  <div class="booking-date"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6M17 2v6M3 11h18"/></svg><div><span>Wednesday, 14 April 2027</span><small>2 adults</small></div></div>
+                  <div id="booking-original" hidden>
+                    <p class="booking-field-title">Time</p><div class="original-slots"><span data-time="09:00">09:00</span><span data-time="14:00" class="chosen">14:00</span></div>
+                    <div class="original-price"><span>From</span><strong>$84</strong><span class="review-dot price-dot" aria-hidden="true">1</span></div>
+                    <div class="original-button">Continue<span class="review-dot action-dot" aria-hidden="true">3</span></div>
+                    <p class="original-note">Extra fees may apply.</p>
+                    <span class="review-dot time-dot" aria-hidden="true">2</span>
+                  </div>
+                  <form id="trip-form">
+                    <fieldset class="booking-times"><legend>Start time <span>Kyoto time · JST</span></legend><label><input type="radio" name="trip-time" value="09:00"><span>09:00</span></label><label><input type="radio" name="trip-time" value="14:00" checked><span>14:00</span></label></fieldset>
+                    <dl class="trip-price"><div><dt>2 adults × $84</dt><dd>$168</dd></div><div><dt>Booking fee</dt><dd>$12</dd></div><div class="trip-total"><dt>Total <span>USD · all fees included</span></dt><dd>$180</dd></div></dl>
+                    <button type="submit" class="booking-submit" disabled>Review booking <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></button>
+                    <p class="booking-reassurance">You won’t be charged yet.</p>
+                    <p class="booking-cancellation">Free cancellation until 24 hours before.</p>
+                  </form>
+                  <div id="trip-confirmation" tabindex="-1" hidden><h4>Review your walk</h4><p>A slower side of Kyoto</p><dl><div><dt>Date</dt><dd>14 April 2027</dd></div><div><dt>Time</dt><dd id="review-time">14:00 JST</dd></div><div><dt>Guests</dt><dd>2 adults</dd></div><div><dt>Total</dt><dd>$180 USD</dd></div></dl><p class="review-policy">Free cancellation until <span id="review-deadline">13 April, 14:00 JST</span>.</p><button type="button" class="booking-submit" id="demo-confirm">Confirm demo booking</button><button type="button" class="booking-edit" id="booking-edit">Change time</button></div>
+                  <div id="trip-success" tabindex="-1" hidden><svg class="booking-success-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21"/><path d="m14 24 7 7 14-15"/></svg><h4>A day to look forward to.</h4><p id="trip-success-copy"></p><p class="booking-reassurance">Demo complete. No reservation or payment was made.</p><button type="button" class="booking-edit" id="trip-reset">Try another time</button></div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <p class="trip-demo-note">Interactive concept. No real bookings or payments.</p>
+        </div>
+        <aside class="trip-reasoning" aria-label="UX Kit’s reasoning">
+          <div class="trip-agent"><img src="assets/ux-kit-mark.svg" width="40" height="26" alt=""><span>UX Kit’s thinking</span></div>
+          <h3 id="trip-insight-title">Same trip.<br>Clearer decision.</h3><p id="trip-insight-summary">The experience keeps its character. The booking now answers the questions that matter.</p>
+          <ol id="trip-findings"><li><span>1</span><div><strong>The real total</strong><p>$180 for two adults, including the booking fee.</p></div></li><li><span>2</span><div><strong>A time you can trust</strong><p>The selected slot stays with you through review.</p></div></li><li><span>3</span><div><strong>A clear next step</strong><p>Review the details before confirming anything.</p></div></li></ol>
+          <div class="trip-preserve"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg><p><strong>Keep what works.</strong> The photography, trip details, date and two-person booking stay.</p></div>
+          <a href="library.html?q=informed" id="trip-principle">Explore informed choice <span aria-hidden="true">↗</span></a>
+        </aside>
+      </div>
+    </div>
+    <details class="trip-prompt"><summary>The prompt behind this example <span aria-hidden="true">+</span></summary><p>“Use UX Kit to audit this Kyoto booking flow for two adults. Make the final cost, selected time and commitment clear. Preserve the trip’s visual identity. Implement the agreed fixes and check the review and confirmation.”</p><p>Authored demonstration of the skill’s process. Findings in your product depend on its evidence and behavior.</p></details>
+    <noscript><p>The improved example is shown above. Stage switching and the demo booking require JavaScript.</p></noscript>
+  </section>
