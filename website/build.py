@@ -110,6 +110,19 @@ def build(output):
                              'TOPICS': ''.join(f'<option value="{key}">{label}</option>' for key, label in TOPICS.items())}.items():
             body = body.replace('{{' + token + '}}', value)
         head = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="theme-color" content="#06525c"><link rel="canonical" href="{BASE}{'' if page == 'index.html' else page}"><link rel="alternate" type="text/plain" title="UX Kit overview for automated readers" href="{BASE}llms.txt"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:type" content="website"><meta property="og:url" content="{BASE}{'' if page == 'index.html' else page}"><meta property="og:image" content="{BASE}assets/roam-product-screens.png"><meta property="og:image:alt" content="Illustrative Roam travel website and mobile app concepts"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="preload" href="assets/fonts/BricolageGrotesque.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="refinements.css"><script src="app.js" defer></script>''' + ('<link rel="stylesheet" href="travel-example.css"><script src="travel-example.js" defer></script>' if page == 'index.html' else '') + '''</head><body>'''
+        structured = {
+            '@context': 'https://schema.org', '@type': 'WebPage',
+            'name': title, 'description': description,
+            'url': BASE + ('' if page == 'index.html' else page),
+            'about': {
+                '@type': 'SoftwareSourceCode', 'name': 'UX Kit',
+                'description': 'An open-source UX skill for AI coding agents, including Codex and Claude Code.',
+                'url': BASE, 'codeRepository': REPO,
+                'license': REPO + '/blob/main/LICENSE',
+            },
+        }
+        json_ld = json.dumps(structured, ensure_ascii=True).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
+        head = head.replace('</head>', '<script type="application/ld+json">' + json_ld + '</script></head>')
         (output / page).write_text(head + body + '</body></html>', encoding='utf-8')
     (output / '.nojekyll').write_text('', encoding='utf-8')
     (output / '404.html').write_text('<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page not found — UX Kit</title><h1>This page isn’t here.</h1><p><a href="/ux-kit/">Return to UX Kit</a></p></html>', encoding='utf-8')

@@ -1,7 +1,9 @@
 """Check the generated site's public search and agent-discovery surface."""
 import importlib.util
+import json
 from html.parser import HTMLParser
 from pathlib import Path
+import re
 import unittest
 import uuid
 import xml.etree.ElementTree as ET
@@ -56,6 +58,23 @@ class SearchDiscoveryTests(unittest.TestCase):
         tree = ET.parse(self.output / 'sitemap.xml')
         locations = {e.text for e in tree.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
         self.assertEqual(locations, {site.BASE, site.BASE + 'library.html', site.BASE + 'guide.html'})
+
+    def test_structured_data_describes_real_page_and_project(self):
+        for page in ('index.html', 'library.html', 'guide.html'):
+            html = (self.output / page).read_text(encoding='utf-8')
+            blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+            self.assertEqual(len(blocks), 1, page)
+            data = json.loads(blocks[0])
+            expected = site.BASE + ('' if page == 'index.html' else page)
+            self.assertEqual(data['@context'], 'https://schema.org')
+            self.assertEqual(data['@type'], 'WebPage')
+            self.assertEqual(data['url'], expected)
+            project = data['about']
+            self.assertEqual(project['@type'], 'SoftwareSourceCode')
+            self.assertEqual(project['name'], 'UX Kit')
+            self.assertEqual(project['codeRepository'], site.REPO)
+            self.assertNotIn('aggregateRating', project)
+            self.assertNotIn('offers', project)
 
     def test_agent_overview_links_to_truthful_public_sources(self):
         overview = (self.output / 'llms.txt').read_text(encoding='utf-8')
