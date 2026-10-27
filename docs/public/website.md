@@ -26,6 +26,12 @@ The optional browser checks in `website/browser-check.mjs` and `website/travel-c
 
 The Website workflow validates public source, builds the static site and deploys only `dist/site/` to GitHub Pages after changes reach `main`. Pull requests run the build checks without deploying. No runtime backend, analytics or external scripts are included.
 
+## Search and automated readers
+
+The generated pages contain descriptive titles, descriptions, canonical links and normal HTML text. The sitemap is at [sitemap.xml](https://flklr-dev.github.io/ux-kit/sitemap.xml); submit that URL in a verified Google Search Console property to inspect indexing and search performance. A short [llms.txt](https://flklr-dev.github.io/ux-kit/llms.txt) points automated readers to the site's public resources; support for that convention varies and it does not guarantee discovery or inclusion.
+
+GitHub Pages serves this project beneath `/ux-kit/`. The generated `/ux-kit/robots.txt` is not the host-root robots file, so crawlers do not use it for the host's rules or sitemap discovery. A host-root robots file would require control of `flklr-dev.github.io/robots.txt` and could affect other sites on that hostname; do not create or overwrite it without inspecting the other sites and their existing policy. A missing root robots file does not itself block crawling. Automated access and indexing also depend on each service and on GitHub Pages' infrastructure.
+
 ## Asset credits
 
 - Bricolage Grotesque is self-hosted under its bundled SIL Open Font License in `website/assets/fonts/OFL.txt`.

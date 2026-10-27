@@ -1,0 +1,14 @@
+# UX Kit
+
+> UX Kit is an open-source UX skill for AI coding agents, including Codex and Claude Code. It helps agents design, audit, implement, and validate user experiences for web and native mobile products.
+
+UX Kit connects user tasks to UX principles, usability guidance, accessibility considerations, concrete changes, and checks. It encourages preserving what works and identifying uncertainty. It does not replace user testing or guarantee outcomes.
+
+## Public resources
+
+- [Website](https://flklr-dev.github.io/ux-kit/): overview, installation, and an interactive illustrative booking example.
+- [Install and use UX Kit](https://flklr-dev.github.io/ux-kit/guide.html): installation for Codex and Claude Code, workflows, and troubleshooting.
+- [UX principles and usability library](https://flklr-dev.github.io/ux-kit/library.html): guidance, examples, limitations, validation checks, and sources.
+- [GitHub repository](https://github.com/flklr-dev/ux-kit): source, license, installation, and contribution information.
+- [Skill instructions](https://github.com/flklr-dev/ux-kit/blob/main/skills/ux-kit/SKILL.md): agent entry point and routing instructions.
+- [Research and foundations](https://github.com/flklr-dev/ux-kit/blob/main/docs/public/foundations.md): the sources behind the guidance and their limitations.
